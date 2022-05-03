@@ -15,3 +15,4 @@ console.log(coloreP);
 const password = nome + cognome + coloreP + "21"
 console.log(password);
 
+document.getElementById("password").innerHTML = "Questa è la tua password:" + password;
